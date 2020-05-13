@@ -8,12 +8,15 @@ body{
     background-color: #101010;
 }
 
+nav.dark .f-icons img{
+    filter: brightness(0) invert(1);
+}
+
 nav.bottombar ul li a, nav.topbar ul li a{
-    padding: .5rem 1rem .8rem 1rem;
+    padding: .5rem 1rem .5rem 1rem;
     border-right: none;
 }
 
 nav.bottombar ul li a:hover, nav.topbar ul li a:hover{
-/*nav ul li a:hover{*/
     background: #272727;
 }

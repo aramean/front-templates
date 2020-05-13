@@ -8,7 +8,7 @@ body{
     background-color: #101010;
 }
 
-nav.dark .f-icons img{
+nav.dark .icons img{
     filter: brightness(0) invert(1);
 }
 

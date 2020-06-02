@@ -28,3 +28,21 @@ nav.bottombar ul li a:hover, nav.topbar ul li a:hover{
     background-color: rgb(245,245,245);
     box-shadow: 0px 0px 3px 5px rgba(0,0,0, 0.07);
 }
+
+#start.modal {
+    justify-content: normal;
+}
+
+#start.modal figcaption {
+    background-color: rgba(17,17,17)
+}
+
+#start.modal .t50{
+    width: 50px;
+    height: 50px;
+}
+
+#start.modal .t70{
+    width: 70px;
+    height: 70px;
+}

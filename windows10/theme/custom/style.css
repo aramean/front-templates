@@ -31,10 +31,15 @@ nav.bottombar ul li a:hover, nav.topbar ul li a:hover{
 
 #start.modal {
     justify-content: normal;
+    align-items: unset;
 }
 
 #start.modal figcaption {
     background-color: rgba(17,17,17)
+}
+
+#start.modal.backdrop .close::before{
+    background-color: transparent;
 }
 
 #start.modal .t50{
